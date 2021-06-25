@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E76A21732686031600FE127F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A21722686031600FE127F /* AppDelegate.swift */; };
+		E76A21752686031600FE127F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A21742686031600FE127F /* SceneDelegate.swift */; };
+		E76A21772686031600FE127F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A21762686031600FE127F /* ViewController.swift */; };
+		E76A217A2686031600FE127F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76A21782686031600FE127F /* Main.storyboard */; };
+		E76A217D2686031600FE127F /* Homegate_task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E76A217B2686031600FE127F /* Homegate_task.xcdatamodeld */; };
+		E76A217F2686031800FE127F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76A217E2686031800FE127F /* Assets.xcassets */; };
+		E76A21822686031800FE127F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76A21802686031800FE127F /* LaunchScreen.storyboard */; };
+		E76A218D2686031900FE127F /* Homegate_taskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A218C2686031900FE127F /* Homegate_taskTests.swift */; };
+		E76A21982686031900FE127F /* Homegate_taskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A21972686031900FE127F /* Homegate_taskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E76A21892686031900FE127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76A21672686031600FE127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76A216E2686031600FE127F;
+			remoteInfo = "Homegate task";
+		};
+		E76A21942686031900FE127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76A21672686031600FE127F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76A216E2686031600FE127F;
+			remoteInfo = "Homegate task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E76A216F2686031600FE127F /* Homegate task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homegate task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76A21722686031600FE127F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E76A21742686031600FE127F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E76A21762686031600FE127F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E76A21792686031600FE127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E76A217C2686031600FE127F /* Homegate_task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homegate_task.xcdatamodel; sourceTree = "<group>"; };
+		E76A217E2686031800FE127F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E76A21812686031800FE127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E76A21832686031800FE127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76A21882686031900FE127F /* Homegate taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homegate taskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76A218C2686031900FE127F /* Homegate_taskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homegate_taskTests.swift; sourceTree = "<group>"; };
+		E76A218E2686031900FE127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76A21932686031900FE127F /* Homegate taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homegate taskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76A21972686031900FE127F /* Homegate_taskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homegate_taskUITests.swift; sourceTree = "<group>"; };
+		E76A21992686031900FE127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E76A216C2686031600FE127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A21852686031900FE127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A21902686031900FE127F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E76A21662686031600FE127F = {
+			isa = PBXGroup;
+			children = (
+				E76A21712686031600FE127F /* Homegate task */,
+				E76A218B2686031900FE127F /* Homegate taskTests */,
+				E76A21962686031900FE127F /* Homegate taskUITests */,
+				E76A21702686031600FE127F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E76A21702686031600FE127F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76A216F2686031600FE127F /* Homegate task.app */,
+				E76A21882686031900FE127F /* Homegate taskTests.xctest */,
+				E76A21932686031900FE127F /* Homegate taskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76A21712686031600FE127F /* Homegate task */ = {
+			isa = PBXGroup;
+			children = (
+				E76A21722686031600FE127F /* AppDelegate.swift */,
+				E76A21742686031600FE127F /* SceneDelegate.swift */,
+				E76A21762686031600FE127F /* ViewController.swift */,
+				E76A21782686031600FE127F /* Main.storyboard */,
+				E76A217E2686031800FE127F /* Assets.xcassets */,
+				E76A21802686031800FE127F /* LaunchScreen.storyboard */,
+				E76A21832686031800FE127F /* Info.plist */,
+				E76A217B2686031600FE127F /* Homegate_task.xcdatamodeld */,
+			);
+			path = "Homegate task";
+			sourceTree = "<group>";
+		};
+		E76A218B2686031900FE127F /* Homegate taskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E76A218C2686031900FE127F /* Homegate_taskTests.swift */,
+				E76A218E2686031900FE127F /* Info.plist */,
+			);
+			path = "Homegate taskTests";
+			sourceTree = "<group>";
+		};
+		E76A21962686031900FE127F /* Homegate taskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E76A21972686031900FE127F /* Homegate_taskUITests.swift */,
+				E76A21992686031900FE127F /* Info.plist */,
+			);
+			path = "Homegate taskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E76A216E2686031600FE127F /* Homegate task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76A219C2686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate task" */;
+			buildPhases = (
+				E76A216B2686031600FE127F /* Sources */,
+				E76A216C2686031600FE127F /* Frameworks */,
+				E76A216D2686031600FE127F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homegate task";
+			productName = "Homegate task";
+			productReference = E76A216F2686031600FE127F /* Homegate task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76A21872686031900FE127F /* Homegate taskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76A219F2686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate taskTests" */;
+			buildPhases = (
+				E76A21842686031900FE127F /* Sources */,
+				E76A21852686031900FE127F /* Frameworks */,
+				E76A21862686031900FE127F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76A218A2686031900FE127F /* PBXTargetDependency */,
+			);
+			name = "Homegate taskTests";
+			productName = "Homegate taskTests";
+			productReference = E76A21882686031900FE127F /* Homegate taskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E76A21922686031900FE127F /* Homegate taskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76A21A22686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate taskUITests" */;
+			buildPhases = (
+				E76A218F2686031900FE127F /* Sources */,
+				E76A21902686031900FE127F /* Frameworks */,
+				E76A21912686031900FE127F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76A21952686031900FE127F /* PBXTargetDependency */,
+			);
+			name = "Homegate taskUITests";
+			productName = "Homegate taskUITests";
+			productReference = E76A21932686031900FE127F /* Homegate taskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E76A21672686031600FE127F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E76A216E2686031600FE127F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E76A21872686031900FE127F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E76A216E2686031600FE127F;
+					};
+					E76A21922686031900FE127F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E76A216E2686031600FE127F;
+					};
+				};
+			};
+			buildConfigurationList = E76A216A2686031600FE127F /* Build configuration list for PBXProject "Homegate task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E76A21662686031600FE127F;
+			productRefGroup = E76A21702686031600FE127F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76A216E2686031600FE127F /* Homegate task */,
+				E76A21872686031900FE127F /* Homegate taskTests */,
+				E76A21922686031900FE127F /* Homegate taskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E76A216D2686031600FE127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A21822686031800FE127F /* LaunchScreen.storyboard in Resources */,
+				E76A217F2686031800FE127F /* Assets.xcassets in Resources */,
+				E76A217A2686031600FE127F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A21862686031900FE127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A21912686031900FE127F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E76A216B2686031600FE127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A21772686031600FE127F /* ViewController.swift in Sources */,
+				E76A21732686031600FE127F /* AppDelegate.swift in Sources */,
+				E76A217D2686031600FE127F /* Homegate_task.xcdatamodeld in Sources */,
+				E76A21752686031600FE127F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A21842686031900FE127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A218D2686031900FE127F /* Homegate_taskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76A218F2686031900FE127F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A21982686031900FE127F /* Homegate_taskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E76A218A2686031900FE127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76A216E2686031600FE127F /* Homegate task */;
+			targetProxy = E76A21892686031900FE127F /* PBXContainerItemProxy */;
+		};
+		E76A21952686031900FE127F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76A216E2686031600FE127F /* Homegate task */;
+			targetProxy = E76A21942686031900FE127F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E76A21782686031600FE127F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76A21792686031600FE127F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E76A21802686031800FE127F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76A21812686031800FE127F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E76A219A2686031900FE127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E76A219B2686031900FE127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E76A219D2686031900FE127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E76A219E2686031900FE127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E76A21A02686031900FE127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate taskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homegate task.app/Homegate task";
+			};
+			name = Debug;
+		};
+		E76A21A12686031900FE127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate taskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homegate task.app/Homegate task";
+			};
+			name = Release;
+		};
+		E76A21A32686031900FE127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate taskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homegate task";
+			};
+			name = Debug;
+		};
+		E76A21A42686031900FE127F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EDB8G45V36;
+				INFOPLIST_FILE = "Homegate taskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vladimir.Homegate-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homegate task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E76A216A2686031600FE127F /* Build configuration list for PBXProject "Homegate task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76A219A2686031900FE127F /* Debug */,
+				E76A219B2686031900FE127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76A219C2686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76A219D2686031900FE127F /* Debug */,
+				E76A219E2686031900FE127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76A219F2686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate taskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76A21A02686031900FE127F /* Debug */,
+				E76A21A12686031900FE127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76A21A22686031900FE127F /* Build configuration list for PBXNativeTarget "Homegate taskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76A21A32686031900FE127F /* Debug */,
+				E76A21A42686031900FE127F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E76A217B2686031600FE127F /* Homegate_task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E76A217C2686031600FE127F /* Homegate_task.xcdatamodel */,
+			);
+			currentVersion = E76A217C2686031600FE127F /* Homegate_task.xcdatamodel */;
+			path = Homegate_task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E76A21672686031600FE127F /* Project object */;
+}
