@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Homegate task
+
+  Created by Vladimir on 27.06.2021.
+  
+*/
+
+"PleaseCall" = "Please call";
+"ErrorTitle" = "Error";
+"OKTitle" = "OK";
